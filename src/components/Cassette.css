@@ -1,0 +1,314 @@
+/*.cassette {
+    position: relative;
+    width: 350px;
+    height: 180px;
+    margin-top: 100px;
+    margin-left: 600px;
+    background-color: #ffb366;
+    border: 4px solid #3a3a3a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    
+  }
+  
+  .disc-container {
+    display: flex;
+    justify-content: space-between;
+    width: 355px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    right: 5%;
+  }
+  
+  .disc {
+    width: 60px;
+    height: 60px;
+    background-color: #571111;
+    border-radius: 50%;
+    border: 4px solid #006c12;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+  }
+  
+  .rotate {
+    animation: rotateDisc 2s linear infinite;
+  }
+  
+  .disc-center {
+    width: 20px;
+    height: 20px;
+    background-color: #040000;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .disc-needle {
+    width: 2px;
+    height: 20px;
+    background-color: #aeae1c;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .song-name {
+    width: 190px;
+    height: 25px;
+    margin-top: 4px;
+    background-color: #222;
+    color: #950808;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .label {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+  .screw {
+  width: 10px;
+  height: 10px;
+  background-color: #3a3a3a;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.screw.screw-1 {
+  top: 5%;
+  left: 5%;
+}
+
+.screw.screw-2 {
+  top: 5%;
+  right: 5%;
+}
+
+.screw.screw-3 {
+  bottom: 5%;
+  left: 5%;
+}
+
+.screw.screw-4 {
+  bottom: 5%;
+  right: 5%;
+}
+  
+  .marquee {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  
+  .marquee span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-left: 100%;
+    animation: marquee 30s linear infinite;
+  }
+  
+  @keyframes rotateDisc {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+*/
+
+
+.cassette {
+  position: relative;
+  width: 350px;
+  height: 180px;
+  margin-top: 100px;
+  margin-left: 600px;
+  background-color: #ffb366;
+  border: 4px solid #3a3a3a;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.disc-container {
+  display: flex;
+  justify-content: space-between;
+  width: 355px;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  right: 5%;
+}
+
+.disc {
+  width: 60px;
+  height: 60px;
+  background-color: #571111;
+  border-radius: 50%;
+  border: 4px solid #006c12;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7px;
+}
+
+.rotate {
+  animation: rotateDisc 2s linear infinite;
+}
+
+.disc-center {
+  width: 20px;
+  height: 20px;
+  background-color: #040000;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.disc-needle {
+  width: 2px;
+  height: 20px;
+  background-color: #aeae1c;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.song-name {
+  width: 190px;
+  height: 30px;
+  margin-top: 4px;
+  background-color: #222;
+  color: #950808;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.label {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.screw {
+  width: 10px;
+  height: 10px;
+  background-color: #3a3a3a;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.screw.screw-1 { top: 5%; left: 5%; }
+.screw.screw-2 { top: 5%; right: 5%; }
+.screw.screw-3 { bottom: 5%; left: 5%; }
+.screw.screw-4 { bottom: 5%; right: 5%; }
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.marquee span {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes rotateDisc {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes marquee {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+@media (max-width: 768px) {
+  .cassette {
+    width: 240px;
+    height: 120px;
+    margin: 0 auto; /* Center cassette horizontally */
+    margin-top: 20px;
+    margin-left: 65px;
+  }
+
+  .disc-container {
+    width: 90%;
+    top: 30%;
+  }
+
+  .disc {
+    width: 40px;
+    height: 40px;
+  }
+
+  .song-name {
+    font-size: 10px;
+    width: 140px;
+    height: 20px;
+    margin-top: 1px;
+  }
+
+  .label {
+    width: 70%;
+    height: 70%;
+  }
+}
+
+
+
+
+  

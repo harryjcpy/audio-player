@@ -1,0 +1,68 @@
+    /* Controls.css */
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+  }
+  
+  .back-button {
+    background-color: #0547b8;
+    color: #7b0000;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+    margin-left: 620px;
+    margin-right: 20px;
+  }
+
+  .play-button {
+    background-color: #0547b8;
+    color: #7b0000;
+    border: none;
+    width: 80px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+    margin-right: 20px; 
+  }
+
+  .next-button {
+    background-color: #0547b8;
+    color: #7b0000;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+  }
+
+
+  button:hover {
+    background-color: #300202;
+  }
+
+  @media (max-width: 768px) {
+    .controls {
+      flex-direction: row; /* Keep buttons in a row */
+      justify-content: center;
+      margin-top: 10px;
+      margin-left: 36px;
+      width: 100%;
+    }
+  
+    .back-button,
+    .play-button,
+    .next-button {
+      margin: 5px; /* Add spacing between buttons */
+      padding: 8px 10px;
+      width: auto;
+    }
+  }
+  
+  
