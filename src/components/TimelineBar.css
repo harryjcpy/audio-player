@@ -1,0 +1,36 @@
+/* TimelineBar.css */
+.timeline-bar-container {
+    width: 22%;
+    margin: 1% 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timeline-bar {
+    width: 100%;
+    appearance: none;
+    height: 5px;
+    background: #42ff91;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .timeline-bar::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #121233;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .timeline-bar::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    background:  #121233;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  

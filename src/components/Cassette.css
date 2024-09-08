@@ -154,7 +154,7 @@
   position: relative;
   width: 350px;
   height: 180px;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 600px;
   background-color: #ffb366;
   border: 4px solid #3a3a3a;
@@ -281,8 +281,8 @@
     width: 240px;
     height: 120px;
     margin: 0 auto; /* Center cassette horizontally */
-    margin-top: 20px;
-    margin-left: 65px;
+    margin-top: 386px;
+    margin-left: 75px;
   }
 
   .disc-container {
@@ -303,11 +303,10 @@
   }
 
   .label {
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
   }
 }
-
 
 
 

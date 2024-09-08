@@ -1,9 +1,9 @@
 body {
-  background-image: url('—Pngtree—aesthetic mountain synthwave retrowave wallpaper_15435752.jpg');
+  background-image: url('aesthetic_mountain_synthwave_retrowave_wallpaper_15435752.jpg');
   background-size: contain; 
   background-repeat: no-repeat; 
   background-position: center; 
-  background-size: 100%;
+  background-size: 120%;
 }
 
 
@@ -16,28 +16,35 @@ body {
 }
 
 input[type="file"] {
-  margin-top: 10px;
-  margin-left: 70%;
-  background-color: rgb(8, 10, 132);
-  width: 200px;
+  margin-top: 15px;
+  margin-left: 46%;
+  background-color: rgb(23, 149, 63);
+  width: 209px;
   height: 21px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
   body {
-    background-size: cover; /* Adjust the background to cover the screen */
+    background-size: cover; 
     background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; /* Makes sure the background extends to at least the full height of the viewport */
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
   }
 
   .app {
-    margin-top: 10px; /* Adjust margin for smaller screens */
+    margin-top: 10px; 
     padding: 10px;
   }
 
   input[type="file"] {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 120px;
     display: block;
   }
 }
