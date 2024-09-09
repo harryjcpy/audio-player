@@ -1,5 +1,5 @@
 body {
-  background-image: url('aesthetic_mountain_synthwave_retrowave_wallpaper_15435752.jpg');
+  background-image: url('/aesthetic_mountain_synthwave_retrowave_wallpaper_15435752.jpg');
   background-size: contain; 
   background-repeat: no-repeat; 
   background-position: center; 
@@ -35,11 +35,18 @@ input[type="file"] {
     margin: 0; /* Removes any default margin */
     padding: 0; /* Removes any default padding */
     overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-y: hidden;
   }
 
   .app {
     margin-top: 10px; 
     padding: 10px;
+    height: 100%; /* Ensure the app container takes the full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center;
+    overflow-y: hidden; /* Prevent vertical overflow */
   }
 
   input[type="file"] {

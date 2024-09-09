@@ -70,6 +70,7 @@
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Adjust for centering */
     width: 50%;
+    color: white;
     min-width: 300px;
     height: 200px;
     pointer-events: none; /* Ensures clicks pass through the animation */
