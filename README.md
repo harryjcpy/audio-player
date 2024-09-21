@@ -45,7 +45,7 @@ You can view a live demo of the project [here](https://main--golden-piroshki-418
     npm run dev
     ```
 
-The app will run locally on [http://localhost:3000](http://localhost:3000).
+The app will run locally on localhost server.
 
 ## Usage
 
