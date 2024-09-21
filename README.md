@@ -27,7 +27,7 @@ You can view a live demo of the project [here](https://main--golden-piroshki-418
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/react-cassette-audio-player.git
+    git clone https://github.com/harryjcpy/audio-player.git
     ```
 
 2. **Navigate to the project directory:**
