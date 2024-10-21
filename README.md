@@ -21,7 +21,7 @@ An audio player application designed to look like a vintage cassette tape, built
 - **Responsive Design**: Fully responsive and optimized for desktop and mobile devices.
 
 ## Demo
-You can view a live demo of the project [here](https://main--golden-piroshki-418942.netlify.app/).
+You can view a live demo of the project [here](https://cassette-audio-player.netlify.app/).
 
 ## Installation
 
